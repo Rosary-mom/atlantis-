@@ -3,78 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Der Rote Faden des Goldenen Zeitalters – Q-Hebel Spiral Governance & Atlantis-Archiv unter dem Sphinx">
-    <title>Atlantis • Der Rote Faden des Goldenen Zeitalters</title>
+    <meta name="description" content="Der Rote Faden des Goldenen Zeitalters – Q-Hebel-optimierte Spiral Governance, Thuban–Orion Kosmos & Atlantis-Archiv unter dem Sphinx">
+    <title>Atlantis • Der Rosary©®™ rote Faden des Goldenen Zeitalters</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <style>
-        body { font-family: 'Georgia', serif; line-height: 1.8; margin:0; padding:0; background:#f8f1e3; color:#222; }
-        h1, h2 { color:#8b0000; text-align:center; }
-        .hero { background: linear-gradient(180deg, #8b0000, #d4af77); color:white; padding:120px 20px; text-align:center; }
-        .hero h1 { font-size:3.2em; margin:0; }
-        .cta { background:#fff; color:#8b0000; padding:20px 50px; font-size:1.5em; border-radius:50px; text-decoration:none; display:inline-block; margin:25px 10px; font-weight:bold; }
-        .bilingual { display:flex; gap:40px; flex-wrap:wrap; padding:40px 5%; }
-        .de, .en { flex:1; min-width:300px; }
-        .formula { background:#fff; padding:25px; border-radius:12px; box-shadow:0 6px 20px rgba(0,0,0,0.1); margin:30px 0; }
-        img, iframe { max-width:100%; border:3px solid #d4af77; border-radius:12px; }
-        footer { background:#222; color:#ddd; text-align:center; padding:60px 20px; }
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500&display=swap');
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; }
+        .hero-bg { background: linear-gradient(135deg, #8b0000 0%, #d4af77 100%); }
     </style>
 </head>
-<body>
+<body class="bg-[#f8f1e3] text-gray-900">
 
-    <!-- HERO / SALES FUNNEL -->
-    <div class="hero">
-        <h1>Der Rote Faden des Goldenen Zeitalters</h1>
-        <p style="font-size:1.6em; max-width:800px; margin:20px auto;">Q-Hebel-optimierte Spiral Governance • Thuban–Orion Kosmos • Atlantis-Archiv unter dem Sphinx</p>
-        <a href="https://rosary.health/shop" class="cta">JETZT INS GOLDENE ZEITALTER EINTRETEN →</a>
-        <p style="font-size:1.3em;">Sofortzugang • 90-Tage-Geld-zurück-Garantie • Digitales Kompendium + interaktive Tools</p>
-    </div>
-
-    <div class="bilingual">
-        <div class="de">
-            <h2>1. Die neue Formel: Q-Hebel + Spiral Governance</h2>
-            <div class="formula">
-                \[ r(\theta) = a \cdot e^{b\theta} \cdot Q(\phi) \quad b = \frac{\ln\phi}{\pi/2} \quad \phi = \frac{1+\sqrt{5}}{2} \]
-                \[ Q(\text{Hebel}) = \frac{1}{\text{Re}(s)-1/2} \quad (\text{Noether-Symmetrie}) \]
-                \[ \text{Stadion}_{Q} = 185\,\text{m} \times Q \]
+    <!-- NAVBAR -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <span class="text-3xl">🌟</span>
+                <h1 class="text-2xl font-bold text-[#8b0000]">Atlantis</h1>
             </div>
-            <p>Die Atlanteanische Elite nutzte redundante Spiralsysteme – verstärkt durch den Q-Hebel für maximale Resilienz.</p>
-        </div>
-        <div class="en">
-            <h2>1. The New Formula: Q-Hebel + Spiral Governance</h2>
-            <div class="formula">
-                \[ r(\theta) = a \cdot e^{b\theta} \cdot Q(\phi) \quad b = \frac{\ln\phi}{\pi/2} \quad \phi = \frac{1+\sqrt{5}}{2} \]
-                \[ Q(\text{Hebel}) = \frac{1}{\text{Re}(s)-1/2} \quad (\text{Noether symmetry}) \]
-                \[ \text{Stadion}_{Q} = 185\,\text{m} \times Q \]
+            <div class="hidden md:flex items-center gap-8 text-lg">
+                <a href="#formel" class="hover:text-[#8b0000] transition">Die Formel</a>
+                <a href="#kosmos" class="hover:text-[#8b0000] transition">Thuban–Orion</a>
+                <a href="#archiv" class="hover:text-[#8b0000] transition">Das Archiv</a>
+                <a href="https://rosary-mom.github.io/Q-Hebel-Labs/" target="_blank" class="hover:text-[#8b0000] transition">Q-Hebel Labs</a>
             </div>
-            <p>The Atlantean elite used redundant spiral systems – amplified by the Q-Hebel for maximum resilience.</p>
+            <div class="flex items-center gap-4">
+                <a href="https://rosary.health/shop" 
+                   class="bg-[#8b0000] text-white px-6 py-3 rounded-2xl font-semibold hover:bg-amber-800 transition">
+                    Jetzt ins Goldene Zeitalter
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero-bg text-white py-24 md:py-32">
+        <div class="max-w-5xl mx-auto text-center px-6">
+            <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
+                Der Rote Faden des Goldenen Zeitalters
+            </h1>
+            <p class="text-2xl md:text-3xl max-w-2xl mx-auto mb-10">
+                Q-Hebel-optimierte Spiral Governance • Thuban–Orion Kosmos • Atlantis-Archiv unter dem Sphinx
+            </p>
+            <div class="flex flex-col sm:flex-row gap-6 justify-center">
+                <a href="https://rosary.health/shop" 
+                   class="bg-white text-[#8b0000] px-10 py-5 rounded-3xl text-2xl font-semibold hover:scale-105 transition">
+                    JETZT EINTRETEN →
+                </a>
+                <a href="#lead-magnet" 
+                   class="border-2 border-white text-white px-10 py-5 rounded-3xl text-2xl font-semibold hover:bg-white/10 transition">
+                    Kostenloses Teaser-PDF
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- LEAD MAGNET ANCHOR -->
+    <div id="lead-magnet" class="max-w-4xl mx-auto px-6 py-16 text-center">
+        <div class="bg-white rounded-3xl shadow-xl p-10">
+            <h2 class="text-3xl font-bold text-[#8b0000] mb-4">Kostenloser Einstieg ins Goldene Zeitalter</h2>
+            <p class="text-xl mb-8">Lade dir die 7 wichtigsten Atlantis-Formeln + Q-Hebel-Einführung herunter</p>
+            <a href="https://rosary.health/shop" 
+               class="inline-block bg-amber-600 text-white px-8 py-4 rounded-2xl text-lg font-semibold">
+                Jetzt kostenloses PDF herunterladen
+            </a>
         </div>
     </div>
 
-    <h2>2. Thuban–Orion Kosmos</h2>
-    <div class="bilingual">
-        <div class="de"><p>Thuban als alter Polarstern + Orion’s Belt als Blaupause der Gizeh-Pyramiden – jetzt integriert in die Q-Hebel-Spirale.</p></div>
-        <div class="en"><p>Thuban as ancient Pole Star + Orion’s Belt as blueprint of the Giza Pyramids – now integrated into the Q-Hebel spiral.</p></div>
-    </div>
-    <iframe width="100%" height="500" src="https://www.youtube.com/embed/CWFWNwskobo" frameborder="0" allowfullscreen></iframe>
+    <!-- FORMEL -->
+    <section id="formel" class="max-w-7xl mx-auto px-6 py-20">
+        <h2 class="text-4xl font-bold text-center mb-12 text-[#8b0000]">1. Die Q-Hebel-optimierte Spiral Governance</h2>
+        <div class="grid md:grid-cols-2 gap-12">
+            <div>
+                <div class="bg-white p-8 rounded-3xl shadow-lg">
+                    \[ r(\theta) = a \cdot e^{b\theta} \cdot Q(\phi) \]
+                    \[ b = \frac{\ln\phi}{\pi/2}, \quad \phi = \frac{1+\sqrt{5}}{2} \]
+                    \[ Q(\text{Hebel}) = \frac{1}{\text{Re}(s)-1/2} \]
+                </div>
+            </div>
+            <div class="prose text-lg">
+                <p>Die Atlanteanische Elite nutzte redundante Spiralsysteme – verstärkt durch den Q-Hebel für maximale Resilienz und göttliche Symmetrie.</p>
+            </div>
+        </div>
+    </section>
 
-    <h2>3. Das Heilige Bild – Vollständige Synthese</h2>
-    <img src="ATLANTIS, Verbreitung.jpg" alt="Megalith-Verbreitung">
-    <img src="ATLANTIS-Thesen.png" alt="Atlantis-Thesen">
-    <img src="ATLANTIS-Aufbau.jpg" alt="Ringstruktur">
-    <img src="SphinXX.jpg" alt="Sphinx-Tempel">
-    <img src="Sonnenwagen Trondholm.jpg" alt="Sonnenwagen">
-    <img src="UFO.11.jpg" alt="Recovered Technology">
+    <!-- KOSMOS -->
+    <section id="kosmos" class="bg-gray-100 py-20">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12 text-[#8b0000]">2. Thuban–Orion Kosmos</h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <p class="text-xl leading-relaxed">Thuban als alter Polarstern und Orion’s Belt als exakte Blaupause der Gizeh-Pyramiden – jetzt mathematisch in die Q-Hebel-Spirale integriert.</p>
+                </div>
+                <div>
+                    <iframe width="100%" height="420" src="https://www.youtube.com/embed/CWFWNwskobo" frameborder="0" allowfullscreen class="rounded-3xl shadow-xl"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div style="text-align:center; padding:60px 20px;">
-        <a href="https://rosary.health/shop" class="cta" style="font-size:1.8em; padding:25px 60px;">VOLLSTÄNDIGES GOLDENES ZEITALTER KIT JETZT KAUFEN →</a>
-        <p><strong>Enthält:</strong> interaktives HTML-Booklet, PDF, Q-Hebel-Notebooks, Spiral-Tools + Bonus-Call</p>
-    </div>
+    <!-- BILDER & ARCHIV -->
+    <section id="archiv" class="max-w-7xl mx-auto px-6 py-20">
+        <h2 class="text-4xl font-bold text-center mb-12 text-[#8b0000]">3. Das Heilige Bild – Vollständige Synthese</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+            <img src="ATLANTIS, Verbreitung.jpg" alt="Megalith-Verbreitung" class="rounded-3xl shadow-xl">
+            <img src="ATLANTIS-Thesen.png" alt="Atlantis-Thesen" class="rounded-3xl shadow-xl">
+            <img src="ATLANTIS-Aufbau.jpg" alt="Ringstruktur" class="rounded-3xl shadow-xl">
+            <img src="SphinXX.jpg" alt="Sphinx-Tempel" class="rounded-3xl shadow-xl">
+            <img src="Sonnenwagen Trondholm.jpg" alt="Sonnenwagen" class="rounded-3xl shadow-xl">
+            <img src="UFO.11.jpg" alt="Recovered Technology" class="rounded-3xl shadow-xl">
+        </div>
+    </section>
 
-    <footer>
-        <p>© 2026 Rosary-mom • <a href="https://rosary-mom.github.io/Q-Hebel-Labs/" style="color:#d4af77;">Q-Hebel Labs</a> • <a href="https://rosary.health/shop" style="color:#d4af77;">Shop</a></p>
-        <p>Der Rote Faden führt ins Goldene Zeitalter.</p>
+    <!-- TESTIMONIALS -->
+    <section class="bg-white py-16">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-10">Was Forscher & Visionäre sagen</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-amber-50 p-8 rounded-3xl">"Endlich eine Synthese, die Wissenschaft, Spiritualität und praktische Anwendung verbindet."</div>
+                <div class="bg-amber-50 p-8 rounded-3xl">"Der Q-Hebel ist der missing link für das Goldene Zeitalter."</div>
+                <div class="bg-amber-50 p-8 rounded-3xl">"Ich spüre den Roten Faden – das ist kein Zufall mehr."</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STICKY CTA -->
+    <a href="https://rosary.health/shop" 
+       class="fixed bottom-8 right-8 bg-[#8b0000] text-white px-8 py-4 rounded-3xl shadow-2xl flex items-center gap-3 text-lg font-semibold hover:scale-110 transition z-50">
+        <span>Jetzt ins Goldene Zeitalter</span>
+        <span class="text-2xl">→</span>
+    </a>
+
+    <footer class="bg-gray-900 text-gray-400 py-12 text-center">
+        <p>© 2026 Rosary-mom • Der Rote Faden führt ins Goldene Zeitalter</p>
+        <p class="mt-4">
+            <a href="https://rosary-mom.github.io/Q-Hebel-Labs/" class="hover:text-white">Q-Hebel Labs</a> • 
+            <a href="https://rosary.health/shop" class="hover:text-white">Shop</a>
+        </p>
     </footer>
 
-    <script>MathJax.typeset();</script>
+    <script>
+        MathJax.typeset();
+        // Tailwind script already loaded
+    </script>
 </body>
 </html>
